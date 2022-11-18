@@ -30,8 +30,9 @@ sh ./scene_graph_extract.sh
 ```
 
 ### Input / Output path
+output으로 custom_data_info.json, custom_prediction.json 생성됩니다.
 ```bash
-ex) 
+ex)
 input image path: 
 |-- AnotherMissOh15
 |   `-- 003
