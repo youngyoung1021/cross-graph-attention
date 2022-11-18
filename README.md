@@ -102,7 +102,7 @@ ex)
     ### 각 엣지는 모든 노드와 연결되어있는 것을 가정하기 때문에 (전체 노드수 -1 * 전체 노드 수) 만큼 나올 수 있습니다. 
     ### 하지만 이는 prediction relation score가 낮은 엣지도 많기 때문에 score가 0.5 이상인것만 DramaQA 데이터셋으로 전달드립니다. 
     ### rel_score > 0.5
-    "rel_pairs(sorted)": detect된 bbox(노드)간의 연결되어있 pair를 나타냅니다.(최대 6320개)
+    "rel_pairs(sorted)": detect된 bbox(노드)간의 연결되어있는 pair를 나타냅니다.(최대 6320개)
     ex)[[31, 32], [33, 32], [9, 32], [23, 32], ... , [42, 23], [61, 23], [47, 25], [25, 51]]
 
         [31,32]: [custom_data_info["ind_to_classes"][32],custom_data_info["ind_to_classes"][32]]
