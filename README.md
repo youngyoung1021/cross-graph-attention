@@ -63,7 +63,7 @@ output path:
 ```bash
 custom_data_info.keys():
 
-"idx_to_files": 각 이미지의 경로를 뜻합니다. 
+"idx_to_files": 폴더내에 각 이미지의 경로를 뜻합니다. 
 ex)["./dramaqa_frames/AnotherMissOh15/003/0080/IMAGE_0000008630.jpg",
     "./dramaqa_frames/AnotherMissOh15/003/0080/IMAGE_0000008574.jpg"
     ...
