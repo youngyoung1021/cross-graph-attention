@@ -106,7 +106,7 @@ ex)
     "rel_pairs(sorted)": detect된 bbox(노드)간의 연결되어있는 pair를 나타냅니다.(최대 6320개)
     ex)[[31, 32], [33, 32], [9, 32], [23, 32], ... , [42, 23], [61, 23], [47, 25], [25, 51]]
 
-        [31,32]: [custom_data_info["ind_to_classes"][32],custom_data_info["ind_to_classes"][32]]
+        [31,32]: [custom_data_info["ind_to_classes"][31],custom_data_info["ind_to_classes"][32]]
         --> ['engine','bus'] --> engine과 bus가 연결되어있음
     
     "rel_labels(sorted)": 연결된 노드간의 엣지 label입니다.(최대 6320개)
