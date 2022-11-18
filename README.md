@@ -5,7 +5,7 @@
 ### 도커 이미지 및 가상환경
 
 ```bash
-docker push oodsdsd/scene-graph-extraction:latest
+docker pull oodsdsd/scene_graph_extract
 conda activate scene_graph_extract
 cd /home/scene_graph_extraction
 ```
