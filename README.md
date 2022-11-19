@@ -1,4 +1,4 @@
-## DramaQA 지식체계 추출
+# DramaQA 지식체계 추출
 
 ### 도커 이미지 및 가상환경
 
@@ -119,11 +119,11 @@ ex)
 
 ### 시각화
 
-### Input Image
+**Input Image**
 
 ![image](https://user-images.githubusercontent.com/44778298/202831042-cffb4f98-7409-452c-ae4b-521df7b78b22.png)
 
-### Output Image
+**Output Image**
 
 ![image](https://user-images.githubusercontent.com/44778298/202831059-51d73a05-022b-445f-994c-caf4d8f6eca6.png)
 
