@@ -1,7 +1,45 @@
 #Scene Graph Extraction  
 ## DramaQA 지식체계 추출
 
+### 시각화
+Input Image
+![image](https://user-images.githubusercontent.com/44778298/202831042-cffb4f98-7409-452c-ae4b-521df7b78b22.png)
 
+Output Image
+![image](https://user-images.githubusercontent.com/44778298/202831059-51d73a05-022b-445f-994c-caf4d8f6eca6.png)
+```bash
+Output exceeds the size limit. Open the full output data in a text editor
+**************************************************
+box_labels 0: shirt; score: 0.632802426815033
+box_labels 1: woman; score: 0.47097983956336975
+box_labels 2: man; score: 0.39938557147979736
+box_labels 3: shirt; score: 0.3945291042327881
+box_labels 4: hair; score: 0.3771052956581116
+box_labels 5: pant; score: 0.3428615927696228
+box_labels 6: table; score: 0.32002344727516174
+box_labels 7: shelf; score: 0.30289050936698914
+box_labels 8: bottle; score: 0.299174040555954
+box_labels 9: shelf; score: 0.2271135151386261
+**************************************************
+rel_labels 0: 2_man => at => 6_table; score: 0.8761001229286194
+rel_labels 1: 2_man => at => 7_shelf; score: 0.7776363492012024
+rel_labels 2: 1_woman => at => 6_table; score: 0.7722375392913818
+rel_labels 3: 3_shirt => at => 6_table; score: 0.7715178728103638
+rel_labels 4: 1_woman => at => 7_shelf; score: 0.756068229675293
+rel_labels 5: 2_man => watching => 1_woman; score: 0.7519111633300781
+rel_labels 6: 2_man => wearing => 5_pant; score: 0.7431520819664001
+rel_labels 7: 2_man => at => 9_shelf; score: 0.7313538789749146
+rel_labels 8: 1_woman => wearing => 3_shirt; score: 0.7244991064071655
+rel_labels 9: 1_woman => at => 9_shelf; score: 0.6979193687438965
+rel_labels 10: 2_man => wearing => 0_shirt; score: 0.6863403916358948
+rel_labels 11: 1_woman => wearing => 5_pant; score: 0.6432791948318481
+rel_labels 12: 2_man => wearing => 3_shirt; score: 0.6212118268013
+...
+rel_labels 16: 5_pant => at => 6_table; score: 0.5563212037086487
+rel_labels 17: 2_man => looking at => 8_bottle; score: 0.5294371247291565
+rel_labels 18: 6_table => in front of => 2_man; score: 0.4990682005882263
+rel_labels 19: 1_woman => with => 4_hair; score: 0.47303032875061035
+```
 ### 도커 이미지 및 가상환경
 
 ```bash
