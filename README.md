@@ -1,7 +1,7 @@
 # DramaQA 지식체계 추출
    
 ### 도커 이미지 및 가상환경
-  
+   
 ```bash
 docker pull oodsdsd/scene_graph_extract
 docker run -it --gpus "device=0" --name scene_graph_extract oodsdsd/scene_graph_extract /bin/bash
