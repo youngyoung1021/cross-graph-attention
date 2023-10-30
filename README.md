@@ -15,7 +15,7 @@ cd /home/scene_graph_extraction
 지식체계를 추출하고자하는 이미지 디렉토리를 /scene_graph_extraction/{directory}에 추가해주세요.
 
 ex) /scene_graph_extraction/dramaqa_frames/AnotherMissOh15/003/0080
-``` 
+```  
          
 ### 지식체계 추출
 
