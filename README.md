@@ -8,7 +8,7 @@ docker run -it --gpus "device=0" --name scene_graph_extract oodsdsd/scene_graph_
 conda activate scene_graph_extract
 cd /home/scene_graph_extraction
 ```   
-           
+            
 ### 이미지 경로 설정
 
 ```bash
