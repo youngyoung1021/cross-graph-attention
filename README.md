@@ -16,7 +16,7 @@ cd /home/scene_graph_extraction
 
 ex) /scene_graph_extraction/dramaqa_frames/AnotherMissOh15/003/0080
 ```   
-          
+           
 ### 지식체계 추출
 
 ```bash
